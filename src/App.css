@@ -1,0 +1,21 @@
+h1 {
+  margin-bottom: 15px;
+  color: #34495e;
+  font-style: oblique;
+  text-align: center;
+  text-decoration: blink;
+  text-shadow: 4px 2px 4px rgb(133, 165, 226);
+}
+
+h2 {
+  margin-bottom: 13px;
+  color: #34495e;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 10px;
+  color: rgb(241, 62, 86);
+  font-size: 14px;
+  text-align: center;
+}

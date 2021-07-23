@@ -1,0 +1,85 @@
+.form {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px 10px 20px 10px;
+  border: 6px solid #fff;
+  border-radius: 8px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  padding: 30px 0px -10px 0px;
+  height: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: #34495e;
+}
+
+.input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid rgba(218, 213, 213, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: #34495e;
+}
+
+.input:focus {
+  outline-color: rgb(119, 112, 126);
+}
+
+.button {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px 12px;
+  cursor: pointer;
+  border: 2px solid rgb(133, 165, 226);
+  border-radius: 8px;
+  color: #fff;
+  background-color: #34495e;
+  text-decoration: none;
+
+  transition: 0.2s ease-in-out;
+}
+
+.button:before {
+  content: '';
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.5)
+  );
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: -8px;
+  left: -75px;
+  transform: skewX(-45deg);
+  margin-top: 20px;
+}
+
+.button:hover {
+  background: #2275c9;
+  color: #fff;
+}
+
+.button:hover:before {
+  left: 150px;
+  transition: 0.5s ease-in-out;
+}

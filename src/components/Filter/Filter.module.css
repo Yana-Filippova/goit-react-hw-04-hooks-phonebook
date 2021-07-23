@@ -1,0 +1,26 @@
+.input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid rgba(218, 213, 213, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.input:focus {
+  outline-color: rgb(119, 112, 126);
+}
+
+.filter {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  padding: 30px 0px -10px 0px;
+  height: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: #34495e;
+}
